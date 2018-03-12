@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="visible">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.zf.news_.myview.MyImgView
+            android:id="@+id/viewpager_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+
+            android:visibility="visible" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/viewpager_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image_indicator_layout"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:text="标题" />
+
+    <LinearLayout
+        android:id="@+id/image_indicator_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"></LinearLayout>
+</RelativeLayout>

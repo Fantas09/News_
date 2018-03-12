@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="top">头条</string>
+    <string name="design">设计</string>
+    <string name="pe">体育</string>
+    <string name="recommend">推荐</string>
+    <string name="music">音乐</string>
+    <string name="psy">心理</string>
+    <string name="game">游戏</string>
+    <string name="loading">正在努力加载中\.\.\.</string>
+    <string name="news">新闻</string>
+    <string name="img">图片</string>
+    <string name="news_header">今日热闻</string>
+    <string name="main">首页</string>
+    <string name="share">分享</string>
+    <string name="good">赞</string>
+    <string name="comments">评论</string>
+    <string name="dayNight">模式</string>
+    <string name="log">请登陆</string>
+
+</resources>

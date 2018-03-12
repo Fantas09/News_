@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:title="@string/main"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/news" />
+
+        <item
+            android:id="@+id/img"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/img" />
+    </group>
+</menu>
